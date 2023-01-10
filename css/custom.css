@@ -1,0 +1,85 @@
+body {
+    background-image: url('../images/flowers2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #8b0404;
+  }
+
+  img {
+
+    width: 300px;
+    height: 300px;
+  
+  }
+  
+  header {
+    background-color: rgb(247, 223, 223);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-style: italic;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    font-size: 1.5em;
+  }
+  
+  nav a {
+    color: #8f0101;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  section {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-style: italic;
+  }
+  
+  footer {
+    background-color: rgb(247, 223, 223);
+    padding: 20px;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    main {
+      flex-direction: column;
+    }
+    section {
+      width: 80%;
+    }
+  }
+  .product-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 0.8em;
+    border-radius: 5px;
+  }
+  
